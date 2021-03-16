@@ -1,8 +1,4 @@
 ''' 
-Rihar del tito-71200648
-Universitas Kristen Duta wacana
-struktur kontrol kompleks
-soal buat sendiri
 
 budi sedang mengadakan diskon besar-besaran ketika pelanggannya belanja sebesar 1500000-3000000 mendapatkan diskon 15%,
 ketika lebih dari 3000000-5000000 mendapatkan diskon 20%,ketika kurang 1500000-500000 mendapatkan diskon 8% syarat ini berlaku jika 
@@ -48,6 +44,13 @@ else:
     if harga >= 900000 and harga <= 1000000 and kartu_M == "no":
         diskon = harga * 5/100
         print("anda mendapatkan diskon sebesar",diskon,"harga yang harus dibayar sekarang",harga-diskon)
+    else :
+        print("maaf anda tidak mendapatkan diskon")
+        print("harga yang harus dibayar adalah",harga)
+
+  
+        
+        
 
 
 
